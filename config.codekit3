@@ -65,7 +65,7 @@
       "oF" : 3
     },
     "\/dev\/js\/scripts.js" : {
-      "bF" : 4,
+      "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
@@ -280,7 +280,7 @@
   "projectAttributes" : {
     "creationDate" : 654453556.59066701,
     "displayValue" : "Emily-Motion-P2",
-    "displayValueWasSetByUser" : 0,
+    "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets-silver",
     "iconImageWasSetByUser" : 0
   },
