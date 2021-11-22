@@ -1,6 +1,7 @@
  import {gsap} from "gsap";
+ import { GSDevTools } from "gsap/GSDevTools";
 
-
+ gsap.registerPlugin(GSDevTools);
  gsap.set("#completelogo", {scale: .3,transformOrigin: "center"});
 
 
@@ -14,3 +15,5 @@ function completelogo(){
 
 
     mainTL.add(completelogo())
+
+    GSDevTools.create();
