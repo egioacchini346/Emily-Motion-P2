@@ -412,13 +412,13 @@ textarea {
     animation
 ============= */
 #animation {
-  position: absolute;
+  height: 100vh;
   width: 100%;
-  z-index: 1000;
+  background-color: #FDF7F1;
 }
-#animation > div svg {
-  position: absolute;
+#animation > div {
+  display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  height: 100%;
 }

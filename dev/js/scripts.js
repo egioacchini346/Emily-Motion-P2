@@ -1,7 +1,11 @@
- import {gsap} from "gsap";
- import { GSDevTools } from "gsap/GSDevTools";
+import {gsap} from "gsap";
+import { GSDevTools } from "gsap/GSDevTools";
+import { MotionPathPlugin } from "gsap/MotionPathPlugin";
+import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
 
- gsap.registerPlugin(GSDevTools);
+
+gsap.registerPlugin(GSDevTools, MotionPathPlugin, DrawSVGPlugin);
+
  gsap.set("#completelogo", {scale: .3,transformOrigin: "center"});
 
 
@@ -14,6 +18,10 @@ function completelogo(){
 
 
 
+
+
     mainTL.add(completelogo())
 
-    GSDevTools.create();
+GSDevTools.create();
+MotionPathPlugin.create();
+DrawSVGPlugin.create();
